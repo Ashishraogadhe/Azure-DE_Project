@@ -1,0 +1,14 @@
+
+**`src/config.py`**
+
+```python
+from dataclasses import dataclass
+
+@dataclass
+class StorageConfig:
+    base_path: str = "abfss://car-sales@yourstorageaccount.dfs.core.windows.net"
+    bronze_path: str = f"{base_path}/bronze/car_sales"
+    silver_path: str = f"{base_path}/silver/car_sales"
+    gold_path: str = f"{base_path}/gold/car_sales"
+
+config = StorageConfig()
