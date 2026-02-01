@@ -1,0 +1,42 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "adf-cars-project1"
+		},
+		"ls_datalake_accountKey": {
+			"value": ""
+		},
+		"ls_dataleak_accountKey": {
+			"value": ""
+		},
+		"ls_sqldb_password": {
+			"value": ""
+		},
+		"ls_datalake_properties_typeProperties_url": {
+			"value": "https://carssdata1.dfs.core.windows.net/"
+		},
+		"ls_dataleak_properties_typeProperties_url": {
+			"value": "https://carssdata1.dfs.core.windows.net/"
+		},
+		"ls_github_properties_typeProperties_url": {
+			"value": "https://raw.githubusercontent.com/"
+		},
+		"ls_sqldb_properties_typeProperties_server": {
+			"value": "carsalesesrvers.database.windows.net"
+		},
+		"ls_sqldb_properties_typeProperties_database": {
+			"value": "carsales"
+		},
+		"ls_sqldb_properties_typeProperties_userName": {
+			"value": "adminash"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
