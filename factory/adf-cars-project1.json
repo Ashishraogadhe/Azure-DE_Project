@@ -1,0 +1,9 @@
+{
+	"name": "adf-cars-project1",
+	"location": "uksouth",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "4ac4fea8-7571-4625-8956-e3ace75f4e99",
+		"tenantId": "f9c6eaa2-4d57-4012-8558-7e65c0a4d809"
+	}
+}
