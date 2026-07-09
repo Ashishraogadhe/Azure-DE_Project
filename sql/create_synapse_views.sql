@@ -12,6 +12,4 @@ FROM
         BULK 'https://yourstorageaccount.dfs.core.windows.net/gold/car_sales/',
         FORMAT = 'DELTA'
     ) AS [g];
-
-    SELECT * FROM dbo.vw_car_sales_monthly_brand
-
+    
